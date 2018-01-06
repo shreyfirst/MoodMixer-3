@@ -10,6 +10,7 @@ import java.util.List;
 // Needed for `react-native link`
 // import com.facebook.react.ReactApplication;
 import com.lufinkey.react.spotify.RCTSpotifyPackage;
+import com.lufinkey.react.spotify.RCTSpotifyPackage;
 
 public class MainApplication extends MultiDexApplication {
 
@@ -21,6 +22,7 @@ public class MainApplication extends MultiDexApplication {
 
         // Needed for `react-native link`
         // new MainReactPackage(),
+            new RCTSpotifyPackage(),
             new RCTSpotifyPackage()
     );
   }

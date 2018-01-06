@@ -24,6 +24,10 @@ android {
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
     }
   }
+  packagingOptions {
+    pickFirst 'lib/armeabi-v7a/libgnustl_shared.so'
+    pickFirst 'lib/x86/libgnustl_shared.so'
+}
   dexOptions {
     javaMaxHeapSize "8g"
   }

@@ -65,7 +65,7 @@
 
 /* Begin PBXFileReference section */
 		2C1548D9E4CB1AEFA5CCAE6D /* Pods-moodmixer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodmixer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moodmixer/Pods-moodmixer.debug.xcconfig"; sourceTree = "<group>"; };
-		3EAFAD8E4EE24FD389E76544 /* libRCTSpotify-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRCTSpotify-tvOS.a"; sourceTree = "<group>"; };
+		3EAFAD8E4EE24FD389E76544 /* libRCTSpotify-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRCTSpotify-tvOS.a"; sourceTree = "<group>"; };
 		579B939F20008E63008153D8 /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
 		579B93A020008E64008153D8 /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
 		579B93A120008E65008153D8 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
@@ -85,9 +85,9 @@
 		B5CFBF4E1EDE419400B4BE24 /* EXBuildConstants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EXBuildConstants.plist; sourceTree = "<group>"; };
 		B5DB047E1F3A684600E91581 /* shell-app-manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "shell-app-manifest.json"; sourceTree = "<group>"; };
 		B5DB047F1F3A684600E91581 /* shell-app.bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "shell-app.bundle"; sourceTree = "<group>"; };
-		C141B59149304C9E9B6FF57E /* libRCTSpotify.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTSpotify.a; sourceTree = "<group>"; };
+		C141B59149304C9E9B6FF57E /* libRCTSpotify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTSpotify.a; sourceTree = "<group>"; };
 		C4A88D15726AD99E8A257BC7 /* libPods-moodmixer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moodmixer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF01017923834C5D89A045F4 /* RCTSpotify.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTSpotify.xcodeproj; path = "../node_modules/react-native-spotify/ios/RCTSpotify.xcodeproj"; sourceTree = "<group>"; };
+		FF01017923834C5D89A045F4 /* RCTSpotify.xcodeproj */ = {isa = PBXFileReference; explicitFileType = archive.ar; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTSpotify.xcodeproj; path = "../node_modules/react-native-spotify/ios/RCTSpotify.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

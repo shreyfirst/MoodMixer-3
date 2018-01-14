@@ -12,21 +12,22 @@ import { NavigationActions } from 'react-navigation';
 import Spotify from 'react-native-spotify';
 
 let spotifyOptions = {
-    "clientID": "69708bf2b35e4cc2b208fafa600ce9a9",
-    "sessionUserDefaultsKey": "SpotifySession",
-    "redirectURL": "MoodMixer://auth",
-    "scopes": ["user-read-private", "playlist-read", "playlist-read-private", "streaming"],
+  "clientID": "69708bf2b35e4cc2b208fafa600ce9a9",
+  "sessionUserDefaultsKey": "SpotifySession",
+  "redirectURL": "MoodMixer://auth",
+  "scopes": ["user-read-private", "playlist-read", "playlist-read-private", "streaming"],
 };
-
+console.log("Spotify",Spotify)
 export default class App extends React.Component {
 
-    render() {
-
-            Spotify.initialize(spotifyOptions, (loggedIn, error) => {
-                if (error != null) {
-                    Alert.alert("ERROR", error.message);
-                }
-            });
+  render() {
+    /*
+      Spotify.initialize(spotifyOptions, (loggedIn, error) => {
+          if (error != null) {
+              Alert.alert("ERROR", error.message);
+          }
+      });
+    */
 
     return (
       <View style={styles.container}>
@@ -39,10 +40,10 @@ export default class App extends React.Component {
 }
 
 const styles = StyleSheet.create({
-	container: {
-	  flex: 1,
-	  backgroundColor: '#fff',
-	  alignItems: 'center',
-	  justifyContent: 'center',
-	},
-  });
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
